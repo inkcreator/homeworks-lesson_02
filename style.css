@@ -212,7 +212,9 @@ p10 {
   width: 280px;
   height: 299px;
   flex-shrink: 0;
-  margin-top: 117px;
+  margin-top: -70px;
+  position: absolute;
+  margin-left: 60px;
 }
 .star1 {
   margin-top: 75px;
@@ -223,7 +225,7 @@ p10 {
   height: 75px;
   flex-shrink: 0;
   position: absolute;
-  margin-top: -50px;
+  margin-top: -220px;
   margin-left: -100px;
 }
 
@@ -233,5 +235,9 @@ p10 {
 }
 .star2 {
   margin-left: 330px;
-  margin-top: 50px;
+  position: absolute;
+  margin-top: -130px;
+}
+.red_beats {
+  margin-left: 30px;
 }
