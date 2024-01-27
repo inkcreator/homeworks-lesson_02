@@ -233,11 +233,11 @@ p10 {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-top: 54px;
+  margin-top: 34px;
   cursor: grab;
 }
 .pictures {
-  margin-top: 134px;
+  margin-top: 100px;
   position: absolute;
 }
 .k1 {
@@ -278,7 +278,7 @@ p10 {
   width: 280px;
   height: 299px;
   flex-shrink: 0;
-  margin-top: -70px;
+  margin-top: 100px;
   position: absolute;
   margin-left: 60px;
 }
@@ -298,11 +298,12 @@ p10 {
 .video_img {
   border-radius: 50%;
   margin-left: 12px;
+  margin-top: 150px;
 }
 .star2 {
   margin-left: 330px;
   position: absolute;
-  margin-top: -130px;
+  margin-top: 10px;
 }
 .red_beats {
   margin-left: 30px;
