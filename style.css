@@ -105,6 +105,7 @@ p11 {
   line-height: 35px;
   margin-top: -30px;
 }
+
 .dollar {
   color: #fff;
 
@@ -120,17 +121,6 @@ p11 {
   align-items: baseline;
 }
 
-p10 {
-  width: 112px;
-  color: #2b2626;
-
-  font-family: Montserrat;
-  font-size: 21px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 35px;
-  position: static;
-}
 .nadpis {
   margin-left: 85px;
   font-size: 40px;
@@ -177,6 +167,7 @@ p10 {
   font-style: normal;
   font-weight: 500;
   line-height: 60px;
+  margin-left: 50px;
 }
 .login {
   cursor: grab;
@@ -207,6 +198,7 @@ p10 {
   font-weight: 600;
   line-height: normal;
 }
+/* header */
 
 .info1 {
   display: inline-block;
@@ -262,52 +254,209 @@ p10 {
 .info1_right {
   display: inline-block;
   width: 600px;
-  position: absolute;
   margin-left: 800px;
 }
+.oval {
+  position: relative;
+  background: #ffffff;
+  width: 280px;
+  height: 297px;
+  padding: 10% 0;
+  border-radius: 136px; /* адаптивный круг */
+  font: 4.5vmin monospace;
+  margin-top: 189px;
+  margin-left: 150px;
+}
+.oval b {
+  position: absolute;
+  left: 50%;
+  color: #2b2626;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
 
-.main-headphones {
-  border-radius: 136px;
-  background: #ecfef4;
-  width: 272px;
-  height: 477px;
-  flex-shrink: 0;
+.oval b:nth-of-type(-n + 17) {
+  bottom: 50%; /* отступ от центра по радиусу */
+  -ms-transform-origin: 0% 100%;
+  -webkit-transform-origin: 0% 100%;
+  transform-origin: 140% 70%;
+  padding-bottom: 100%; /* отступ от центра круга */
+}
+.oval b:nth-of-type(1) {
+  -ms-transform: rotate(-93.185deg);
+  -webkit-transform: rotate(-93.185deg);
+  transform: rotate(-93.185deg);
+  margin-bottom: 10px;
+}
+.oval b:nth-of-type(2) {
+  -ms-transform: rotate(-83.915deg);
+  -webkit-transform: rotate(-83.915deg);
+  transform: rotate(-83.915deg);
+  margin-left: 8px;
+  margin-bottom: 1px;
+}
+.oval b:nth-of-type(3) {
+  -ms-transform: rotate(-74.944deg);
+  -webkit-transform: rotate(-74.944deg);
+  transform: rotate(-74.944deg);
+  margin-left: 8px;
+  margin-bottom: -2px;
+}
+.oval b:nth-of-type(4) {
+  -ms-transform: rotate(-61.53deg);
+  -webkit-transform: rotate(-61.53deg);
+  transform: rotate(-61.53deg);
+  margin-left: 4px;
+  margin-bottom: -10px;
+}
+.oval b:nth-of-type(5) {
+  -ms-transform: rotate(-52.077deg);
+  -webkit-transform: rotate(-52.077deg);
+  transform: rotate(-52.077deg);
+  margin-left: 6px;
+  margin-bottom: -20px;
+}
+.oval b:nth-of-type(6) {
+  -ms-transform: rotate(-43.574deg);
+  -webkit-transform: rotate(-43.574deg);
+  transform: rotate(-43.574deg);
+  margin-left: 4px;
+  margin-bottom: -26px;
+}
+.oval b:nth-of-type(7) {
+  -ms-transform: rotate(-36.446deg);
+  -webkit-transform: rotate(-36.446deg);
+  transform: rotate(-36.446deg);
+  margin-left: 6px;
+  margin-bottom: -34px;
+}
+.oval b:nth-of-type(8) {
+  -ms-transform: rotate(-30.003deg);
+  -webkit-transform: rotate(-30.003deg);
+  transform: rotate(-30.003deg);
+  margin-left: 2px;
+  margin-bottom: -35px;
+}
+.oval b:nth-of-type(9) {
+  -ms-transform: rotate(-16.461deg);
+  -webkit-transform: rotate(-16.461deg);
+  transform: rotate(-16.461deg);
+  margin-left: 8px;
+  margin-bottom: -30px;
+}
+.oval b:nth-of-type(10) {
+  -ms-transform: rotate(-7.803deg);
+  -webkit-transform: rotate(-7.803deg);
+  transform: rotate(-7.803deg);
+  margin-left: 16px;
+  margin-bottom: -40px;
+}
+.oval b:nth-of-type(11) {
+  -ms-transform: rotate(-1.419deg);
+  -webkit-transform: rotate(-1.419deg);
+  transform: rotate(-1.419deg);
+  margin-left: 8px;
+  margin-bottom: -42px;
+}
+.oval b:nth-of-type(12) {
+  -ms-transform: rotate(7.082deg);
+  -webkit-transform: rotate(7.082deg);
+  transform: rotate(7.082deg);
+  margin-left: 4px;
+  margin-bottom: -44px;
+}
+.oval b:nth-of-type(13) {
+  -ms-transform: rotate(15.196deg);
+  -webkit-transform: rotate(15.196deg);
+  transform: rotate(15.196deg);
+  margin-left: -2px;
+  margin-bottom: -46px;
+}
+.oval b:nth-of-type(14) {
+  -ms-transform: rotate(22.989deg);
+  -webkit-transform: rotate(22.989deg);
+  transform: rotate(22.989deg);
+  margin-left: -6px;
+  margin-bottom: -47px;
+}
+.oval b:nth-of-type(15) {
+  -ms-transform: rotate(34.011deg);
+  -webkit-transform: rotate(34.011deg);
+  transform: rotate(34.011deg);
+  margin-left: -28px;
+  margin-bottom: -58px;
+}
+.oval b:nth-of-type(16) {
+  -ms-transform: rotate(43.839deg);
+  -webkit-transform: rotate(43.839deg);
+  transform: rotate(43.839deg);
+  margin-left: -14px;
+  margin-bottom: -42px;
+}
+.oval b:nth-of-type(17) {
+  -ms-transform: rotate(50.591deg);
+  -webkit-transform: rotate(50.591deg);
+  transform: rotate(50.591deg);
+  margin-left: -30px;
+  margin-bottom: -46px;
 }
 
 .main-headphones_img {
+  display: flex;
   width: 280px;
   height: 299px;
   flex-shrink: 0;
-  margin-top: 100px;
+  margin-top: -355px;
   position: absolute;
-  margin-left: 60px;
+  margin-left: 160px;
 }
 .star1 {
-  margin-top: 75px;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 60px;
 }
 
 .video-block {
+  display: inline-block;
   width: 112px;
   height: 75px;
   flex-shrink: 0;
-  position: absolute;
-  margin-top: -220px;
-  margin-left: -100px;
+}
+.zelenka {
+  display: flex;
+  position: static;
+  margin-left: 800px;
+  margin-top: -80px;
 }
 
 .video_img {
+  display: flex;
+  position: absolute;
   border-radius: 50%;
-  margin-left: 12px;
-  margin-top: 150px;
+  margin-left: 803px;
+  margin-top: -70px;
 }
 .star2 {
-  margin-left: 330px;
+  display: flex;
+  margin-left: 1250px;
   position: absolute;
-  margin-top: 10px;
+  margin-top: -50px;
 }
-.red_beats {
-  margin-left: 30px;
+.play_video {
+  width: 112px;
+  color: #2b2626;
+  margin-left: 780px;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  position: static;
 }
+
 /* finish blok 1 */
 
 .info2 {
