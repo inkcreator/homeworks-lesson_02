@@ -14,6 +14,15 @@ body {
   display: table-cell;
   vertical-align: middle;
 }
+a {
+  text-decoration: none;
+  color: #111;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.205px;
+}
 nav {
   background: #10b981;
   display: flex;
@@ -125,6 +134,14 @@ p11 {
   font-weight: 400;
   line-height: 35px;
   margin-top: -30px;
+}
+footer {
+  font-family: "DM Sans";
+  width: 1068px;
+  height: 415px;
+  margin-top: 125px;
+  padding-left: 186px;
+  padding-right: 186px;
 }
 
 .dollar {
@@ -904,4 +921,114 @@ p5 {
   line-height: normal;
   background-color: #845ec2;
   margin-left: 60px;
+  cursor: grab;
+}
+/* finish block 5 */
+.ready {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid #10b981;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+.ready_to {
+  width: 213px;
+  height: 29px;
+  color: #111;
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  padding-right: 20px;
+}
+.get_started {
+  padding-left: 0;
+  width: 175px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #10b981;
+  box-shadow: 0px 25px 50px 0px rgba(132, 94, 194, 0.15);
+  border: none;
+  color: #fff;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: grab;
+  color: #fff;
+
+  font-family: "DM Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.232px;
+}
+.stolby {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.subscribe {
+  flex-direction: column;
+  max-width: 289px;
+  max-height: 139px;
+}
+.footer-links1 {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  max-width: 156px;
+  max-height: 182px;
+}
+.footer-links2 {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  max-width: 100px;
+  max-height: 182px;
+}
+.footer-links3 {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  max-width: 100px;
+  max-height: 102px;
+}
+.our {
+  color: #111;
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+.down {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.search1 {
+  width: 289px;
+  height: 51px;
+  position: static;
+  margin-left: 0px;
+  padding-left: 0px;
+  border: none;
+}
+.submit {
+  position: absolute;
+  margin-left: -50px;
+}
+.footer-header {
+  color: #10b981;
+}
+.down1 {
+  display: flex;
+  gap: 30px;
 }
