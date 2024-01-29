@@ -10,10 +10,14 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Shopper landing Page</title>
   </head>
   <body>
@@ -105,7 +109,6 @@
             src="./img/naushniki.png"
             alt="headphones"
           />
-        </div>
 
         <div class="video-block">
           <img class="zelenka" src="./svg/zelenka.svg"> 
@@ -120,11 +123,17 @@
         <div class="info2_left">
           <h2>Apple wireless Airpod</h2>
           <div class="image_position">
-            <img src="./img/price1.png" />
-            <img class="center_img" src="./img/price2.png" />
-            <img class="right_img" src="./img/price3.png" />
+          <div id="image_position1">
+            <img src="./img/price1.png"/>
+            </div> 
+            <div id="image_position2">
+            <img src="./img/price2.png">
           </div>
-          <p2>Price: <span class="dollar">$45.99</span></p2>
+          <div id="image_position3">
+            <img src="./img/price3.png">
+          </div>
+        </div>
+          <p class="price5">Price: <span class="dollar">$45.99</span></p>
         </div>
         <div class="info2_right">
           <h3>Our Featured Products</h3>
@@ -145,11 +154,11 @@
         </div>
         <div class="boat">
           <div class="boat1">
-            <div class="boat_top">
-              <img alt="headpfones" src="./img/boat rockerz 333.png" />
-              <div class="sale60">Save 60%</div>
-            </div>
-            <div class="boat_bot">
+            
+             <img class="headphones2" src="./img/boat rockerz 333.png" />
+              <img class="zeleniy_krug" src="svg/zeleniy_krug.svg"/><p class="sale60">Save 60%</p>
+            
+            <div class="boat_bot1">
               <p3>Boat Rockerz 333</p3>
               <div class="rating">
                 <img src="./icon/Star 3.svg" />
@@ -164,11 +173,9 @@
             <button class="adder">Add to cart</button>
           </div>
           <div class="boat2">
-            <div class="boat_top">
-              <img alt="headpfones" src="./img/boat rockerz 234.png" />
-            </div>
-            <div class="boat_bot">
-              <p3>Boat Rockerz 333</p3>
+              <img class="headphones1" src="./img/boat rockerz 234.png" />
+            <div class="boat_bot1">
+              <p3>Boat Rockerz 234</p3>
               <div class="rating">
                 <img src="./icon/Star 3.svg" />
                 <img src="./icon/Star 3.svg" />
@@ -177,17 +184,17 @@
                 <img src="./icon/Star 3.svg" />
                 <p4>75 Reviews</p4>
               </div>
-              <p5>$20</p5>
+              <p5>$40</p5>
             </div>
             <button class="adder">Add to cart</button>
           </div>
           <div class="boat3">
-            <div class="boat_top">
-              <img alt="headpfones" src="./img/boat rockerz 323.png" />
-              <div class="sale40">Save 40%</div>
-            </div>
-            <div class="boat_bot">
-              <p3>Boat Rockerz 333</p3>
+            
+              <img class="headphones1" src="./img/boat rockerz 323.png" />
+              <img class="fioletoviy_krug" src="svg/fioletoviy_krug.svg"/><p class="sale40">Save 40%</p>
+            
+            <div class="boat_bot1">
+              <p3>Boat Rockerz 323</p3>
               <div class="rating">
                 <img src="./icon/Star 3.svg" />
                 <img src="./icon/Star 3.svg" />
@@ -196,96 +203,100 @@
                 <img src="./icon/Star 3.svg" />
                 <p4>75 Reviews</p4>
               </div>
-              <p5>$20</p5>
+              <p5>$30</p5>
             </div>
             <button class="adder">Add to cart</button>
           </div>
+          <img class="arrow" src="./svg/right arrow.svg"  />
         </div>
-        <img src="./svg/right arrow.svg" alt="arrow" />
       </section>
       <section class="info4">
-        <h4>Trending Earphones</h4>
-        <button class="active" type="button">Earbuds</button>
-        <button type="button">Wireless</button>
-        <button type="button">Wired</button>
-        <div class="boat">
-          <div class="boat1">
-            <div class="boat_top">
-              <img alt="headpfones" src="./img/rockerz333.png" />
-              <div class="sale60">Save 60%</div>
+        <h8>Trending Earphones</h8>
+        <div class="info4_bar">
+        <button class="active_dva" type="button">Earbuds</button>
+        <button class="active2">Wireless</button>
+        <button class="active2">Wired</button>
+      </div>
+      <div class="boat">
+        <div class="boat1">
+          
+           <img class="headphones3" src="./img/rockerz333.png" />
+            <img class="zeleniy_krug" src="svg/zeleniy_krug.svg"/><p class="sale60">Save 60%</p>
+          
+          <div class="boat_bot1">
+            <p3>Boat Rockerz 333</p3>
+            <div class="rating">
+              <img src="./icon/Star 3.svg" />
+              <img src="./icon/Star 3.svg" />
+              <img src="./icon/Star 3.svg" />
+              <img src="./icon/Star 3.svg" />
+              <img src="./icon/Star 3.svg" />
+              <p4>75 Reviews</p4>
             </div>
-            <div class="boat_bot">
-              <p3>Boat Rockerz 333</p3>
-              <div class="rating">
-                <img src="./icon/Star 3.svg" />
-                <img src="./icon/Star 3.svg" />
-                <img src="./icon/Star 3.svg" />
-                <img src="./icon/Star 3.svg" />
-                <img src="./icon/Star 3.svg" />
-                <p4>75 Reviews</p4>
-              </div>
-              <p5>$20</p5>
-            </div>
-            <button class="adder">Add to cart</button>
+            <p5>$20</p5>
           </div>
-          <div class="boat2">
-            <div class="boat_top">
-              <img alt="headpfones" src="./img/boat rockerz 234.png" />
-            </div>
-            <div class="boat_bot">
-              <p3>Boat Rockerz 333</p3>
-              <div class="rating">
-                <img src="./icon/Star 3.svg" />
-                <img src="./icon/Star 3.svg" />
-                <img src="./icon/Star 3.svg" />
-                <img src="./icon/Star 3.svg" />
-                <img src="./icon/Star 3.svg" />
-                <p4>75 Reviews</p4>
-              </div>
-              <p5>$20</p5>
-            </div>
-            <button class="adder">Add to cart</button>
-          </div>
-          <div class="boat3">
-            <div class="boat_top">
-              <img alt="headpfones" src="./img/rockerz323.png" />
-              <div class="sale40">Save 40%</div>
-            </div>
-            <div class="boat_bot">
-              <p3>Boat Rockerz 333</p3>
-              <div class="rating">
-                <img src="./icon/Star 3.svg" />
-                <img src="./icon/Star 3.svg" />
-                <img src="./icon/Star 3.svg" />
-                <img src="./icon/Star 3.svg" />
-                <img src="./icon/Star 3.svg" />
-                <p4>75 Reviews</p4>
-              </div>
-              <p5>$20</p5>
-            </div>
-            <button class="adder">Add to cart</button>
-          </div>
+          <button class="adder">Add to cart</button>
         </div>
-        <img src="./svg/right arrow.svg" alt="arrow" />
+        <div class="boat4">
+            <img class="headphones1" src="./img/boat rockerz 234.png" />
+          <div class="boat_bot1">
+            <p3>Boat Rockerz 234</p3>
+            <div class="rating">
+              <img src="./icon/Star 3.svg" />
+              <img src="./icon/Star 3.svg" />
+              <img src="./icon/Star 3.svg" />
+              <img src="./icon/Star 3.svg" />
+              <img src="./icon/Star 3.svg" />
+              <p4>75 Reviews</p4>
+            </div>
+            <p5>$40</p5>
+          </div>
+          <button class="adder">Add to cart</button>
+        </div>
+        <div class="boat5">
+          
+            <img class="headphones1" src="./img/rockerz323.png" />
+            <img class="fioletoviy_krug" src="svg/golyboi_krug.svg"/><p class="sale40">Save 40%</p>
+          
+          <div class="boat_bot1">
+            <p3>Boat Rockerz 323</p3>
+            <div class="rating">
+              <img src="./icon/Star 3.svg" />
+              <img src="./icon/Star 3.svg" />
+              <img src="./icon/Star 3.svg" />
+              <img src="./icon/Star 3.svg" />
+              <img src="./icon/Star 3.svg" />
+              <p4>75 Reviews</p4>
+            </div>
+            <p5>$30</p5>
+          </div>
+          <button class="adder">Add to cart</button>
+        </div>
+        <img class="arrow" src="./svg/right arrow.svg"  />
+      </div>
+
+
       </section>
       <section class="info5">
-        <h5>New Launches</h5>
+        <div class="fon_h5"><h5>New Launches</h5></div>
         <div class="info5_left">
-          <div class="strelka_levo">&lt;</div>
-          <img src="./img/info5_1.png" />
-          <img src="./img/info5_2.png" />
+          <img class="mini_krug" src="./svg/mini_krug.svg"><p class="mini_text">&lt;</p></img>
+          <img class="ellipse-l" src="./img/info5_1.png" />
+          <img class="ellipse" src="./img/info5_2.png" />
         </div>
         <div class="info5_right">
           <h6>Airdrop 500 Anc</h6>
-          <p>
+          <p class="lorem">
             Lorem ipsum is a placeholder text commonly used to demonstrate the
             visual form of a product ... Read More
           </p>
-          <p6>Price: $45.99</p6>
-          <div class="strelka_pravo">&gt;</div>
-          <img src="./svg/colors.svg" />
-          <button class="custom_btn">Add to cart</button>
-          <button>Explore More</button>
+          <p class="price6">Price: <span class="dollar1">$45.99</span></p>
+          <img class="colors" src="./svg/colors.svg" />
+          <div>
+          <button class="add_btn">Add to cart</button>
+          <button class="more">Explore More</button>
+        </div>
+          <img class="mini_krug_r" src="./svg/mini_krug.svg"><p class="mini_text_r">&gt;</p></img>
         </div>
       </section>
     </main>
