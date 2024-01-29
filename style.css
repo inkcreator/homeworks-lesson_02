@@ -178,7 +178,7 @@ footer {
 }
 .lupa {
   position: absolute;
-  margin-left: -60px;
+  margin-left: -80px;
   margin-top: 15px;
   width: 38px;
   height: 38px;
@@ -187,9 +187,11 @@ footer {
   background-color: #10b981;
   display: inline-block;
   border: none;
+  outline: none;
 }
 .svg_lupa {
-  margin-top: 3px;
+  margin-top: 8px;
+  margin-left: 8px;
 }
 .bag {
   cursor: grab;
@@ -1030,6 +1032,7 @@ p5 {
   margin-left: 0px;
   padding-left: 0px;
   border: none;
+  outline: none;
 }
 .submit {
   position: absolute;
