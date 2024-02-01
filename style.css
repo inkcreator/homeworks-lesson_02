@@ -569,7 +569,9 @@ footer {
   line-height: 35px;
   margin-left: 200px;
   gap: 15px;
-  padding-top: 470px;
+}
+.price6 {
+  padding-top: 300px;
 }
 
 .info2_right {
