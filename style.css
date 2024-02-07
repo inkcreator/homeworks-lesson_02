@@ -241,13 +241,13 @@ footer {
 /* header */
 
 .info1 {
-  display: inline-block;
+  display: flex;
   height: 681px;
   width: 100%;
 }
 .info1_left {
   margin-left: 85px;
-  width: 750px;
+  width: 55%;
   display: inline-block;
   position: absolute;
 }
@@ -293,8 +293,8 @@ footer {
 }
 .info1_right {
   display: inline-block;
-  width: 600px;
-  margin-left: 800px;
+  width: 45%;
+  padding-left: 800px;
 }
 .oval {
   position: relative;
@@ -561,16 +561,14 @@ footer {
 .price5 {
   color: #fff;
   display: flex;
-  position: absolute;
+  position: relative;
   font-size: 31px;
   font-style: normal;
   font-weight: 400;
   line-height: 35px;
   margin-left: 200px;
   gap: 15px;
-}
-.price6 {
-  padding-top: 300px;
+  margin-top: 310px;
 }
 
 .info2_right {
@@ -881,7 +879,7 @@ p5 {
   font-style: normal;
   font-weight: 300;
   line-height: 35px; /* 112.903% */
-  margin-top: -260px;
+  margin-top: 50px;
 }
 .dollar1 {
   color: #fff;
