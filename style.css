@@ -1,18 +1,17 @@
 html,
 body {
-  height: 100%;
-}
-html {
-  display: table;
-  margin: auto;
+  display: flexbox;
+  width: 100%;
+  margin: 0 auto;
 }
 body {
-  padding-top: 53px;
+  min-width: 320px;
   max-width: 1440px;
+  padding-top: 53px;
   font-family: Montserrat;
   font-weight: 400;
-  display: table-cell;
-  vertical-align: middle;
+  display: flexbox;
+  margin: 0 auto;
 }
 a {
   text-decoration: none;
