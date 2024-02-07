@@ -881,7 +881,7 @@ p5 {
   font-style: normal;
   font-weight: 300;
   line-height: 35px; /* 112.903% */
-  margin-top: 0px;
+  margin-top: -260px;
 }
 .dollar1 {
   color: #fff;
@@ -898,11 +898,11 @@ p5 {
   background-color: #845ec2;
   border: none;
   margin-left: 645px;
-  margin-top: -231px;
+  margin-top: -250px;
 }
 .mini_text_r {
   position: absolute;
-  margin-top: -225px;
+  margin-top: -243px;
   margin-left: 663px;
   color: #fff;
 }
@@ -925,7 +925,7 @@ p5 {
   position: static;
 }
 .colors {
-  margin-top: 20px;
+  margin-top: 0px;
 }
 .more {
   border: none;
