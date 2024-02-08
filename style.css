@@ -1,4 +1,4 @@
-Аhtml,
+html,
 body {
   display: flexbox;
   width: 100%;
@@ -287,7 +287,8 @@ footer {
   margin-left: 120px;
 }
 .info1_right {
-  display: inline-block;
+  display: flexbox;
+  margin-top: -50px;
   width: 50%;
   right: 20px;
   position: absolute;
@@ -585,7 +586,7 @@ footer {
   cursor: grab;
 }
 /* finish block 2 */
-.info3 {
+/*.info3 {
   display: flex;
   width: 100%;
   height: 100%;
@@ -703,7 +704,7 @@ p3 {
   font-size: 21px;
   font-style: normal;
   font-weight: 500;
-  line-height: 35px; /* 166.667% */
+  line-height: 35px; 
 }
 p4 {
   color: #888;
@@ -711,7 +712,7 @@ p4 {
   font-size: 11px;
   font-style: normal;
   font-weight: 500;
-  line-height: 35px; /* 318.182% */
+  line-height: 35px; 
   padding-left: 10px;
 }
 p5 {
@@ -772,7 +773,7 @@ p5 {
   margin-left: -90px;
 }
 
-/* finish block 3 */
+
 .info4 {
   display: flex;
   width: 100%;
@@ -823,7 +824,7 @@ p5 {
   background: #d3fbfb;
   align-items: center;
 }
-/* finish block 4 */
+
 .fon_h5 {
   padding: 0px 553px 50px 552px;
   background-color: #fff;
@@ -889,7 +890,7 @@ p5 {
   font-size: 19px;
   font-style: normal;
   font-weight: 400;
-  line-height: 35px; /* 166.667% */
+  line-height: 35px; 
   margin-top: -110px;
 }
 .price6 {
@@ -898,7 +899,7 @@ p5 {
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
-  line-height: 35px; /* 112.903% */
+  line-height: 35px; 
   margin-top: 50px;
 }
 .dollar1 {
@@ -959,7 +960,7 @@ p5 {
   margin-left: 60px;
   cursor: grab;
 }
-/* finish block 5 */
+
 .ready {
   display: flex;
   justify-content: flex-end;
@@ -1068,4 +1069,81 @@ p5 {
 .down1 {
   display: flex;
   gap: 30px;
+}*/
+@media (max-width: 360px) {
+  .login {
+    display: none;
+  }
+  .bag {
+    display: none;
+  }
+  .search {
+    position: relative;
+    margin-left: 60px;
+  }
+  .shopper {
+    display: flexbox;
+    align-items: none;
+  }
+  nav {
+    gap: 15px;
+  }
+  .info1 {
+    height: 450px;
+  }
+  .info1_left {
+    display: none;
+  }
+  .info1_right {
+    display: flex;
+
+    left: 0px;
+    margin-top: 400px;
+  }
+  .main-headphones_img {
+    position: absolute;
+    margin-top: -300px;
+    max-width: 200px;
+    max-height: 233px;
+    margin-left: 120px;
+  }
+  .oval {
+    display: none;
+  }
+  .star1 {
+    position: absolute;
+    margin-top: -350px;
+  }
+  .star2 {
+    display: none;
+  }
+  .play_video {
+    margin-left: 10px;
+  }
+  .info2 {
+    margin-top: 50px;
+  }
+  .info2_left {
+    display: none;
+  }
+  .info2_right {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 10px;
+  }
+  h3 {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 360px;
+  }
+  .knopki {
+    position: relative;
+    left: 5px;
+    top: 120px;
+  }
+  .view {
+    margin-left: 60px;
+    margin-top: 20px;
+  }
 }
